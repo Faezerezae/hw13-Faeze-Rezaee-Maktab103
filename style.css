@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ .cell{
+  @apply w-10 h-10 text-lg bg-slate-100 select-none flex justify-center items-center border border-gray-400 cursor-pointer hover:bg-gray-300 p-2
+}
+
+
+#gameStatus {
+  @apply text-green-500 font-bold hidden;
+}
